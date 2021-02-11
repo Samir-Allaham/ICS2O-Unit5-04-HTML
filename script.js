@@ -22,7 +22,7 @@ document.getElementById('click-me').addEventListener('click', secondButton)
 
 document.getElementById('button-two').addEventListener('click', buttonOn)
 
-function secondButton () {
+function thirdButton () {
   document.getElementById('picture').style.display='inline'
   document.getElementById('paragraph').innerHTML = 'Done!'
   document.getElementById('picture').src =
